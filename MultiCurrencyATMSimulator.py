@@ -1,4 +1,4 @@
-balance = 1000
+balance = int(input("Enter your balance: "))
 new_balance = []
 converted_balance = []
 
@@ -18,7 +18,6 @@ def ATM_PIN():
             else:
                 print("Try after 24 hours")
     return False
-
 def options():
     print("\n--- MENU ---")
     res = int(input("1. Deposit\n2. Balance check\n3. Withdrawal\n4.CurrencyConvert\n5. Exit\nSelection: "))
